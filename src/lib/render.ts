@@ -15,7 +15,7 @@ export const render = <Component extends SvelteComponent>({
 	};
 }) => {
 	const { html } =
-		render({template,  ...props });
+		render({template,  props });
 	if (options?.plainText) {
 		return renderAsPlainText(html);
 	}

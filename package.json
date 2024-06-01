@@ -50,6 +50,6 @@
 		"html-to-text": "^9.0.3",
 		"pretty": "^2.0.0",
 		"svelte": "^3.55.1",
-		"svelte-email": "github:travisdmathis/svelte-email"
+		"svelte-email": "github:travisdmathis/svelte-email#v5fix/render"
 	}
 }
